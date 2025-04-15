@@ -41,9 +41,9 @@ video_capture.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 video_capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 # -------------------- Email Settings -------------------- #
-EMAIL_SENDER = "trytest.rohan@gmail.com"
-EMAIL_PASSWORD = "nvjv qlze ekxg fkee"  # Consider using environment variables for security
-EMAIL_RECEIVER = "trytest.rohan@gmail.com"
+EMAIL_SENDER = "sender email"
+EMAIL_PASSWORD = "your app password"  # Consider using environment variables for security
+EMAIL_RECEIVER = "receiver email"
 
 def send_email(image_path):
     """Sends an email with an unknown face image."""
